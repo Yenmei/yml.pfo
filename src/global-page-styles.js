@@ -9,22 +9,22 @@ const pageStyles = {
     "index": {
         "background": "#d2d2d2"
     },
-    "index/index1": {
+    "index/graphic_design": {
         "background": "#d2d2d2"
     },
-    "index/index11": {
+    "index/carsharing": {
         "background": "#d2d2d2"
     },
-    "index/index111": {
+    "index/cardiago": {
         "background": "#d2d2d2"
     },
-    "index/index1111": {
+    "index/evtaxi": {
         "background": "#d2d2d2"
     },
-    "index/index11111": {
+    "index/jianshi_township": {
         "background": "#d2d2d2"
     },
-    "index/index12": {
+    "index/3d_animation": {
         "background": "#d2d2d2"
     }
 };

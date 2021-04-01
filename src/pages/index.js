@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Image, Button, Span, Input } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Image, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack, Formspree } from "@quarkly/components";
@@ -9,13 +9,13 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Hi, this is Yenmei. :  )
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"I'm a Visual/Interface designer,  enjoying turning ideas into reality. This is the website of my portfolio, demonstrating my sense of beauty and capability. Enjoy! "} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/favicon.png?v=2021-03-23T06:10:09.433Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#d2d2d2"} />
 		</Helmet>
-		<Section>
+		<Section id="sec_top">
 			<Box
 				display="flex"
 				padding="12px 0"
@@ -33,14 +33,20 @@ export default (() => {
 				>
 					Yenmei
 				</Text>
-				<Menu display="flex">
-					<Override slot="link" color="#2E4053" text-decoration-line="initial" hover-text-decoration-line="underline">
+				<Menu display="flex" font="18px sans-serif">
+					<Override
+						slot="link"
+						color="#2E4053"
+						text-decoration-line="initial"
+						hover-text-decoration-line="underline"
+						href="#sec_aboutme"
+					>
 						ABOUT ME
 					</Override>
 					<Override slot="link-index" color="#2E4053">
 						LET'S TALK
 					</Override>
-					<Override slot="link-active" color="#2E4053" />
+					<Override slot="link-active" color="#2E4053" href="#sec_letstalk" />
 				</Menu>
 			</Box>
 		</Section>
@@ -72,25 +78,31 @@ export default (() => {
 					>
 						Hi, I'm a Visual / Interface designer,
 					</Text>
-					<Text as="p" font="300 27px --fontFamily-googleLato" color="--greyD2" sm-font="300 20px --fontFamily-googleLato">
+					<Text
+						as="p"
+						font="300 27px --fontFamily-googleLato"
+						color="--greyD2"
+						sm-font="300 20px --fontFamily-googleLato"
+						margin="16px 0px 30px 0px"
+					>
 						enjoying turning ideas into reality.
 					</Text>
-					<Button
+					<Link
+						href="#sec_works"
 						background="#4aa7c0"
-						font="500 27px --fontFamily-googleLato"
-						padding="12px 50px 18px 50px"
 						color="#E1FFFF"
-						border-radius="45px"
+						font="27px --fontFamily-googleLato"
+						text-decoration-line="initial"
+						padding="12px 50px 18px 50px"
 						letter-spacing="0.1rem"
-						type="submit"
-						disabled={false}
-						hover-transform="translateY(6px)"
-						hover-background="#009ac1"
+						border-radius="45px"
 						box-shadow="--m"
-						href="#sec_work"
+						hover-background="#009ac1"
+						hover-transform="translateY(6px)"
+						margin="0 0px 0px 0px"
 					>
 						Check out my works
-					</Button>
+					</Link>
 				</Box>
 			</Box>
 		</Section>
@@ -99,7 +111,7 @@ export default (() => {
 			sm-padding="40px 0"
 			font="--base"
 			color="--dark"
-			id="sec_work"
+			id="sec_works"
 		>
 			<Text
 				as="h1"
@@ -465,6 +477,7 @@ export default (() => {
 				margin="0 auto 5px auto"
 				text-align="center"
 				color="#2E4053"
+				id="sec_aboutme"
 			>
 				ABOUT ME
 			</Text>
@@ -496,7 +509,7 @@ To wisely leverage all talents and traits from various team member, open communi
 				</Box>
 			</Box>
 		</Section>
-		<Section background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/goldfish.png?v=2021-03-23T13:09:48.163Z) 0%  0% no-repeat" color="--dark" padding="64px 0">
+		<Section background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/goldfish.png?v=2021-03-23T13:09:48.163Z) 0%  0% no-repeat" color="--dark" padding="64px 0" id="sec_letstalk">
 			<Stack>
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" margin="0 0px 0px 0px" />
@@ -600,17 +613,24 @@ To wisely leverage all talents and traits from various team member, open communi
 					padding="6px 12px"
 					font="300 20px/30px --fontFamily-googleLato"
 					hover-text-decoration-line="underline"
+					href="#sec_top"
 				/>
-				<Override slot="link-active" color="--lightD1" font="300 20px/30px --fontFamily-googleLato" hover-text-decoration-line="underline" />
+				<Override
+					slot="link-active"
+					color="#d2d2d2"
+					font="300 20px/30px --fontFamily-googleLato"
+					hover-text-decoration-line="underline"
+					href="#sec_works"
+				/>
 				<Override slot="item" padding="6px 0px" />
 				<Override slot="link-404">
-					WORKS
+					TOP
 				</Override>
 				<Override slot="link-item" font="300 20px/30px --fontFamily-googleLato" hover-text-decoration-line="underline">
-					ABOUT ME
+					---
 				</Override>
 				<Override slot="link-index" font="300 20px/30px --fontFamily-googleLato" hover-text-decoration-line="underline">
-					LET'S TALK
+					WORKS
 				</Override>
 			</Menu>
 		</Section>
