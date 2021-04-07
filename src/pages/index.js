@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Image, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Menu, Section, StackItem, Stack, Formspree } from "@quarkly/components";
+import { Section, Override, StackItem, Stack, Formspree } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -33,21 +33,30 @@ export default (() => {
 				>
 					Yenmei
 				</Text>
-				<Menu display="flex" font="18px sans-serif">
-					<Override
-						slot="link"
+				<Box display="flex" width="max-content">
+					<Link
+						href="#sec_aboutme"
+						display="flex"
+						padding="0px 12px 0px 6px"
 						color="#2E4053"
+						font="300 20px --fontFamily-googleLato"
 						text-decoration-line="initial"
 						hover-text-decoration-line="underline"
-						href="#sec_aboutme"
 					>
 						ABOUT ME
-					</Override>
-					<Override slot="link-index" color="#2E4053">
+					</Link>
+					<Link
+						href="#sec_letstalk"
+						display="flex"
+						padding="0px 6px 0px 12px"
+						color="#2E4053"
+						font="300 20px --fontFamily-googleLato"
+						text-decoration-line="initial"
+						hover-text-decoration-line="underline"
+					>
 						LET'S TALK
-					</Override>
-					<Override slot="link-active" color="#2E4053" href="#sec_letstalk" />
-				</Menu>
+					</Link>
+				</Box>
 			</Box>
 		</Section>
 		<Section
@@ -141,65 +150,67 @@ export default (() => {
 						slot="StackItemContent"
 						flex-direction="column"
 						background="--color-lightD1"
-						padding="0px 0px 0px 0px"
 						border-radius="20px"
 						hover-cursor="pointer"
 						hover-transform="translateY(5px)"
 						hover-background="--color-light"
 						box-shadow="--l"
 					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_c.png?v=2021-03-23T13:09:48.178Z) 50% 60%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
-						E Flyer
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
-					>
-						Graghic Design
-					</Text>
-					<Text
-						as="p"
-						margin="7px 0 20px 0"
-						font="300 20px/24px --fontFamily-googleLato"
-						letter-spacing="0.05rem"
-						color="#AD7D52"
-						padding="0 25px 0 30px"
-					>
-						<Span
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
+					<Box padding="0px 0px 0px 0" background="--color-lightD1" height="583.719px" border-radius="25px">
+						<Box
+							height="0"
+							margin="0 0 20px 0"
+							padding-bottom="100%"
+							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_c.png?v=2021-03-23T13:09:48.178Z) 50% 60%/cover no-repeat"
+							border-radius="20px 20px 0px 0px"
+							width="358.179px"
+						/>
+						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+							E Flyer
+						</Text>
+						<Text
+							as="h3"
+							font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
+							margin="17px 0 20px 0"
 							color="#2E4053"
+							padding="0 0 0 30px"
 						>
-							Tag
-						</Span>
-						{"  "}
-						<Span
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
+							Graghic Design
+						</Text>
+						<Text
+							as="p"
+							margin="7px 0 20px 0"
+							font="300 20px/24px --fontFamily-googleLato"
+							letter-spacing="0.05rem"
+							color="#AD7D52"
+							padding="0 25px 0 30px"
 						>
-							Posters, covers, Affinity designer, Affinity photo,  2013-2020
-						</Span>
-					</Text>
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								color="#2E4053"
+							>
+								Tag
+							</Span>
+							{"  "}
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Posters, covers, Affinity designer, Affinity photo,  2013-2020
+							</Span>
+						</Text>
+					</Box>
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%">
 					<Override
@@ -598,41 +609,47 @@ To wisely leverage all talents and traits from various team member, open communi
 			</Stack>
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
-			<Menu
+			<Box
 				display="flex"
+				align-items="center"
 				justify-content="center"
-				font="--lead"
-				margin="-6px 0 16px"
-				md-flex-direction="column"
-				md-align-items="center"
+				width="700px"
+				margin="0px auto 0px auto"
 			>
-				<Override
-					slot="link"
-					text-decoration="none"
-					color="#d2d2d2"
-					padding="6px 12px"
-					font="300 20px/30px --fontFamily-googleLato"
-					hover-text-decoration-line="underline"
+				<Link
 					href="#sec_top"
-				/>
-				<Override
-					slot="link-active"
+					font="300 20px --fontFamily-googleLato"
+					text-decoration-line="initial"
 					color="#d2d2d2"
-					font="300 20px/30px --fontFamily-googleLato"
+					padding="10px 36px 10px 48px"
+					width="33%"
 					hover-text-decoration-line="underline"
-					href="#sec_works"
-				/>
-				<Override slot="item" padding="6px 0px" />
-				<Override slot="link-404">
+				>
 					TOP
-				</Override>
-				<Override slot="link-item" font="300 20px/30px --fontFamily-googleLato" hover-text-decoration-line="underline">
-					---
-				</Override>
-				<Override slot="link-index" font="300 20px/30px --fontFamily-googleLato" hover-text-decoration-line="underline">
-					WORKS
-				</Override>
-			</Menu>
+				</Link>
+				<Link
+					href="#sec_aboutme"
+					font="300 20px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					color="#d2d2d2"
+					padding="10px 24px 10px 36px"
+					width="33%"
+					hover-text-decoration-line="underline"
+				>
+					ABOUT ME
+				</Link>
+				<Link
+					href="#sec_works"
+					font="300 20px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					color="#d2d2d2"
+					padding="10px 24px 10px 24px"
+					width="33%"
+					hover-text-decoration-line="underline"
+				>
+					OTHER WORKS
+				</Link>
+			</Box>
 		</Section>
 		<Link
 			font={"--capture"}

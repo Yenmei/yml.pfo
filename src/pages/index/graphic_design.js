@@ -4,6 +4,7 @@ import { Theme, Link, Text, Box, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index/graphic_design"} />
@@ -176,161 +177,55 @@ export default (() => {
 				Next journey…
 			</Text>
 			<Stack margin-top="40px">
-				<StackItem width="20%" lg-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+				<Components.CardLink>
+					<Override slot="text">
 						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
-					>
+					</Override>
+					<Override slot="text1">
 						Carsharing
-					</Text>
-				</StackItem>
-				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+					</Override>
+					<Override slot="box" background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat" />
+					<Override slot="link" href="carsharing" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text">
 						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
-					>
+					</Override>
+					<Override slot="text1">
 						Cardiago
-					</Text>
-				</StackItem>
-				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+					</Override>
+					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat" />
+					<Override slot="link" href="cardiago" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text">
 						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
-					>
+					</Override>
+					<Override slot="text1">
 						EVTaxi
-					</Text>
-				</StackItem>
-				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 50% 0/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+					</Override>
+					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text">
 						UXUI, Visual
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
-					>
+					</Override>
+					<Override slot="text1">
 						Jianshi Township
-					</Text>
-				</StackItem>
-				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 60% 0%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+					</Override>
+					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 0% 0%/cover no-repeat" />
+					<Override slot="link" href="jianshi_township" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text">
 						Craft
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
-					>
+					</Override>
+					<Override slot="text1">
 						3D / Animation
-					</Text>
-				</StackItem>
+					</Override>
+					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 50% 0%/cover no-repeat" />
+					<Override slot="link" href="3d_animation" />
+				</Components.CardLink>
 			</Stack>
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
