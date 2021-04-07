@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Image, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Section, Override, StackItem, Stack, Formspree } from "@quarkly/components";
+import { Section, StackItem, Stack, Override, Formspree } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -146,8 +146,8 @@ export default (() => {
 			</Text>
 			<Stack margin-top="40px">
 				<StackItem width="33%" lg-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
+					<Link
+						href="index/graphic_design"
 						flex-direction="column"
 						background="--color-lightD1"
 						border-radius="20px"
@@ -155,8 +155,10 @@ export default (() => {
 						hover-transform="translateY(5px)"
 						hover-background="--color-light"
 						box-shadow="--l"
-					/>
-					<Box padding="0px 0px 0px 0" background="--color-lightD1" height="583.719px" border-radius="25px">
+						display="flex"
+						width="100%"
+						text-decoration-line="initial"
+					>
 						<Box
 							height="0"
 							margin="0 0 20px 0"
@@ -210,11 +212,11 @@ export default (() => {
 								Posters, covers, Affinity designer, Affinity photo,  2013-2020
 							</Span>
 						</Text>
-					</Box>
+					</Link>
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
+					<Link
+						href="index/carsharing"
 						flex-direction="column"
 						background="--color-lightD1"
 						border-radius="20px"
@@ -222,52 +224,56 @@ export default (() => {
 						hover-transform="translateY(5px)"
 						hover-background="--color-light"
 						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
-						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
+						display="flex"
+						width="100%"
+						text-decoration-line="initial"
 					>
-						Carsharing
-					</Text>
-					<Text
-						as="p"
-						margin="7px 0 30px 0"
-						font="300 20px/24px --fontFamily-googleLato"
-						letter-spacing="0.05rem"
-						color="#AD7D52"
-						padding="0 25px 0 30px"
-					>
-						<Span
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
+						<Box
+							height="0"
+							margin="0 0 20px 0"
+							padding-bottom="100%"
+							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat"
+							border-radius="20px 20px 0px 0px"
+						/>
+						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+							UXUI
+						</Text>
+						<Text
+							as="h3"
+							font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
+							margin="17px 0 20px 0"
 							color="#2E4053"
+							padding="0 0 0 30px"
 						>
-							Tag{"  "}
-						</Span>
-						Mobile app, car, innovation, 2016
-					</Text>
+							Carsharing
+						</Text>
+						<Text
+							as="p"
+							margin="7px 0 30px 0"
+							font="300 20px/24px --fontFamily-googleLato"
+							letter-spacing="0.05rem"
+							color="#AD7D52"
+							padding="0 25px 0 30px"
+						>
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								color="#2E4053"
+							>
+								Tag{"  "}
+							</Span>
+							Mobile app, car, innovation, 2016
+						</Text>
+					</Link>
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
+					<Link
+						href="index/cardiago"
 						flex-direction="column"
 						background="--color-lightD1"
 						border-radius="20px"
@@ -275,52 +281,56 @@ export default (() => {
 						hover-transform="translateY(5px)"
 						hover-background="--color-light"
 						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
-						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
+						display="flex"
+						width="100%"
+						text-decoration-line="initial"
 					>
-						Cardiago
-					</Text>
-					<Text
-						as="p"
-						margin="7px 0 30px 0"
-						font="300 20px/24px --fontFamily-googleLato"
-						letter-spacing="0.05rem"
-						color="#AD7D52"
-						padding="0 25px 0 30px"
-					>
-						<Span
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
+						<Box
+							height="0"
+							margin="0 0 20px 0"
+							padding-bottom="100%"
+							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat"
+							border-radius="20px 20px 0px 0px"
+						/>
+						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+							UXUI
+						</Text>
+						<Text
+							as="h3"
+							font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
+							margin="17px 0 20px 0"
 							color="#2E4053"
+							padding="0 0 0 30px"
 						>
-							Tag
-						</Span>
-						{"  "}Mobile app, diagnosis, Zeplin, 2017
-					</Text>
+							Cardiago
+						</Text>
+						<Text
+							as="p"
+							margin="7px 0 30px 0"
+							font="300 20px/24px --fontFamily-googleLato"
+							letter-spacing="0.05rem"
+							color="#AD7D52"
+							padding="0 25px 0 30px"
+						>
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								color="#2E4053"
+							>
+								Tag
+							</Span>
+							{"  "}Mobile app, diagnosis, Zeplin, 2017
+						</Text>
+					</Link>
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
+					<Link
+						href="index/evtaxi"
 						flex-direction="column"
 						background="--color-lightD1"
 						border-radius="20px"
@@ -328,52 +338,56 @@ export default (() => {
 						hover-transform="translateY(5px)"
 						hover-background="--color-light"
 						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
-						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
+						display="flex"
+						width="100%"
+						text-decoration-line="initial"
 					>
-						EVTaxi
-					</Text>
-					<Text
-						as="p"
-						margin="7px 0 30px 0"
-						font="300 20px/24px --fontFamily-googleLato"
-						letter-spacing="0.05rem"
-						color="#AD7D52"
-						padding="0 25px 0 30px"
-					>
-						<Span
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
+						<Box
+							height="0"
+							margin="0 0 20px 0"
+							padding-bottom="100%"
+							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover no-repeat"
+							border-radius="20px 20px 0px 0px"
+						/>
+						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+							UXUI
+						</Text>
+						<Text
+							as="h3"
+							font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
+							margin="17px 0 20px 0"
 							color="#2E4053"
+							padding="0 0 0 30px"
 						>
-							Tag
-						</Span>
-						{"  "}Mobile app, car, rehabus, 2018
-					</Text>
+							EVTaxi
+						</Text>
+						<Text
+							as="p"
+							margin="7px 0 30px 0"
+							font="300 20px/24px --fontFamily-googleLato"
+							letter-spacing="0.05rem"
+							color="#AD7D52"
+							padding="0 25px 0 30px"
+						>
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								color="#2E4053"
+							>
+								Tag
+							</Span>
+							{"  "}Mobile app, car, rehabus, 2018
+						</Text>
+					</Link>
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
+					<Link
+						href="index/jianshi_township"
 						flex-direction="column"
 						background="--color-lightD1"
 						border-radius="20px"
@@ -381,52 +395,56 @@ export default (() => {
 						hover-transform="translateY(5px)"
 						hover-background="--color-light"
 						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 50% 0/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
-						UXUI, Visual
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
+						display="flex"
+						width="100%"
+						text-decoration-line="initial"
 					>
-						Jianshi Township
-					</Text>
-					<Text
-						as="p"
-						margin="7px 0 30px 0"
-						font="300 20px/24px --fontFamily-googleLato"
-						letter-spacing="0.05rem"
-						color="#AD7D52"
-						padding="0 25px 0 30px"
-					>
-						<Span
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
+						<Box
+							height="0"
+							margin="0 0 20px 0"
+							padding-bottom="100%"
+							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 50% 0/cover no-repeat"
+							border-radius="20px 20px 0px 0px"
+						/>
+						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+							UXUI, Visual
+						</Text>
+						<Text
+							as="h3"
+							font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
+							margin="17px 0 20px 0"
 							color="#2E4053"
+							padding="0 0 0 30px"
 						>
-							Tag
-						</Span>
-						{"  "}Mobile app, web, 2018
-					</Text>
+							Jianshi Township
+						</Text>
+						<Text
+							as="p"
+							margin="7px 0 30px 0"
+							font="300 20px/24px --fontFamily-googleLato"
+							letter-spacing="0.05rem"
+							color="#AD7D52"
+							padding="0 25px 0 30px"
+						>
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								color="#2E4053"
+							>
+								Tag
+							</Span>
+							{"  "}Mobile app, web, 2018
+						</Text>
+					</Link>
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
+					<Link
+						href="index/3d_animation"
 						flex-direction="column"
 						background="--color-lightD1"
 						border-radius="20px"
@@ -434,48 +452,52 @@ export default (() => {
 						hover-transform="translateY(5px)"
 						hover-background="--color-light"
 						box-shadow="--l"
-					/>
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 60% 0%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
-						Craft
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 30px"
+						display="flex"
+						width="100%"
+						text-decoration-line="initial"
 					>
-						3D / Animation
-					</Text>
-					<Text
-						as="p"
-						margin="7px 0 30px 0"
-						font="300 20px/24px --fontFamily-googleLato"
-						letter-spacing="0.05rem"
-						color="#AD7D52"
-						padding="0 25px 0 30px"
-					>
-						<Span
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
+						<Box
+							height="0"
+							margin="0 0 20px 0"
+							padding-bottom="100%"
+							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 60% 0%/cover no-repeat"
+							border-radius="20px 20px 0px 0px"
+						/>
+						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+							Craft
+						</Text>
+						<Text
+							as="h3"
+							font="normal 500 30px/1.2 --fontFamily-serifGeorgia"
+							margin="17px 0 20px 0"
 							color="#2E4053"
+							padding="0 0 0 30px"
 						>
-							Tag
-						</Span>
-						{"  "}C4D, Tumult Hype, visual
-					</Text>
+							3D / Animation
+						</Text>
+						<Text
+							as="p"
+							margin="7px 0 30px 0"
+							font="300 20px/24px --fontFamily-googleLato"
+							letter-spacing="0.05rem"
+							color="#AD7D52"
+							padding="0 25px 0 30px"
+						>
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								color="#2E4053"
+							>
+								Tag
+							</Span>
+							{"  "}C4D, Tumult Hype, visual
+						</Text>
+					</Link>
 				</StackItem>
 			</Stack>
 		</Section>

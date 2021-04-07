@@ -176,57 +176,7 @@ export default (() => {
 			>
 				Next journey…
 			</Text>
-			<Stack margin-top="40px">
-				<Components.CardLink>
-					<Override slot="text">
-						UXUI
-					</Override>
-					<Override slot="text1">
-						Carsharing
-					</Override>
-					<Override slot="box" background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat" />
-					<Override slot="link" href="carsharing" />
-				</Components.CardLink>
-				<Components.CardLink>
-					<Override slot="text">
-						UXUI
-					</Override>
-					<Override slot="text1">
-						Cardiago
-					</Override>
-					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat" />
-					<Override slot="link" href="cardiago" />
-				</Components.CardLink>
-				<Components.CardLink>
-					<Override slot="text">
-						UXUI
-					</Override>
-					<Override slot="text1">
-						EVTaxi
-					</Override>
-					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover" />
-				</Components.CardLink>
-				<Components.CardLink>
-					<Override slot="text">
-						UXUI, Visual
-					</Override>
-					<Override slot="text1">
-						Jianshi Township
-					</Override>
-					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 0% 0%/cover no-repeat" />
-					<Override slot="link" href="jianshi_township" />
-				</Components.CardLink>
-				<Components.CardLink>
-					<Override slot="text">
-						Craft
-					</Override>
-					<Override slot="text1">
-						3D / Animation
-					</Override>
-					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 50% 0%/cover no-repeat" />
-					<Override slot="link" href="3d_animation" />
-				</Components.CardLink>
-			</Stack>
+			<Components.OtherWorkStack />
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
 			<Menu
