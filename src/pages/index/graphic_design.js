@@ -189,10 +189,10 @@ export default (() => {
 				Next journey…
 			</Text>
 			<Components.OtherWorkStack>
-				<Override slot="cardLinkOverride3" href="/index/carsharing" />
-				<Override slot="cardLinkOverride7" href="/index/cardiago" />
-				<Override slot="cardLinkOverride11" href="/index/evtaxi" />
-				<Override slot="cardLinkOverride15" href="/index/jianshi_township" />
+				<Override slot="cardLinkOverride3" />
+				<Override slot="cardLinkOverride7" />
+				<Override slot="cardLinkOverride11" />
+				<Override slot="cardLinkOverride15" />
 				<Override slot="cardLinkOverride19" />
 			</Components.OtherWorkStack>
 		</Section>

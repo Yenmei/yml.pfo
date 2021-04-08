@@ -34,7 +34,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "link",
-			"href": "carsharing"
+			"href": "/carsharing"
 		}
 	},
 	"cardLink1": {
@@ -66,7 +66,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "link",
-			"href": "cardiago"
+			"href": "/cardiago"
 		}
 	},
 	"cardLink2": {
@@ -98,7 +98,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "link",
-			"href": "evtaxi"
+			"href": "/evtaxi"
 		}
 	},
 	"cardLink3": {
@@ -130,7 +130,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "link",
-			"href": "jianshi_township"
+			"href": "/jianshi_township"
 		}
 	},
 	"cardLink4": {
@@ -162,7 +162,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "link",
-			"href": "/index/3d_animation"
+			"href": "/3d_animation"
 		}
 	}
 };
