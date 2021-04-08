@@ -474,7 +474,7 @@ export default (() => {
 			</Text>
 			<Box display="flex" margin="40px 0 20px 0" justify-content="space-around" sm-flex-direction="column">
 				<Box padding="10px">
-					<Image src="javascript:submitBrowseForm('/images','portrait2.svg','downloadfile','');" width="570px" max-width="100%" />
+					<Image src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/portrait2.svg?v=2021-03-23T13:09:48.184Z" width="570px" max-width="100%" />
 					<Text as="h3" font="normal 700 35px/1.2 --fontFamily-serifGeorgia" margin="20px 0 0 0" color="#2E4053">
 						Collectively to design high quality products.
 					</Text>
