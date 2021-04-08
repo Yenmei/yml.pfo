@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Span, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Span, Image, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
+import { StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -16,38 +16,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/favicon.png?v=2021-03-23T06:10:09.433Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#d2d2d2"} />
 		</Helmet>
-		<Section>
-			<Box
-				display="flex"
-				padding="12px 0"
-				justify-content="space-between"
-				align-items="center"
-				flex-direction="row"
-				md-flex-direction="column"
-			>
-				<Text
-					margin="0"
-					md-margin="0px 0 20px 0"
-					text-align="left"
-					font="normal normal 500 23px/1.3 --fontFamily-googlePtSerif"
-					color="#7dafbe"
-				>
-					Yenmei
-				</Text>
-				<Menu display="flex" font="18px --fontFamily-googleLato">
-					<Override slot="link" color="#2E4053" text-decoration-line="initial" hover-text-decoration-line="underline">
-						ABOUT ME
-					</Override>
-					<Override slot="link-index" color="#2E4053">
-						OTHER WORKS
-					</Override>
-					<Override slot="link-active" color="#2E4053" />
-					<Override slot="link-index1" font="18px sans-serif">
-						LET'S TALK
-					</Override>
-				</Menu>
-			</Box>
-		</Section>
+		<Components.TopSection />
 		<Section
 			padding="60px 0 60px 0"
 			sm-padding="40px 0"
@@ -178,37 +147,7 @@ export default (() => {
 			</Text>
 			<Components.OtherWorkStack />
 		</Section>
-		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
-			<Menu
-				display="flex"
-				justify-content="center"
-				font="--lead"
-				margin="-6px 0 16px"
-				md-flex-direction="column"
-				md-align-items="center"
-			>
-				<Override
-					slot="link"
-					text-decoration="none"
-					color="#D2D2D2"
-					padding="6px 20px 6px 20px"
-					hover-text-decoration-line="underline"
-					font="300 18px/30px Lato, sans-serif"
-				/>
-				<Override slot="link-active" color="#D2D2D2" font="300 18px/30px --fontFamily-googleLato" hover-text-decoration-line="underline" />
-				<Override slot="item" padding="6px 0px" />
-				<Override slot="link-404">
-					ABOUT ME
-				</Override>
-				<Override slot="link-item" font="300 20px/30px --fontFamily-googleLato" hover-text-decoration-line="underline">
-					ABOUT ME
-				</Override>
-				<Override slot="link-index" font="300 18px/30px --fontFamily-googleLato" hover-text-decoration-line="underline">
-					LET'S TALK
-				</Override>
-				<Override slot="link-index1" display="none" />
-			</Menu>
-		</Section>
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

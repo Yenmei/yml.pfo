@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Image, Span, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Text, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Section, StackItem, Stack, Override, Formspree } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -15,50 +16,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/favicon.png?v=2021-03-23T06:10:09.433Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#d2d2d2"} />
 		</Helmet>
-		<Section id="sec_top">
-			<Box
-				display="flex"
-				padding="12px 0"
-				justify-content="space-between"
-				align-items="center"
-				flex-direction="row"
-				md-flex-direction="column"
-			>
-				<Text
-					margin="0"
-					md-margin="0px 0 20px 0"
-					text-align="left"
-					font="normal normal 500 23px/1.3 --fontFamily-googlePtSerif"
-					color="#7dafbe"
-				>
-					Yenmei
-				</Text>
-				<Box display="flex" width="max-content">
-					<Link
-						href="#sec_aboutme"
-						display="flex"
-						padding="0px 12px 0px 6px"
-						color="#2E4053"
-						font="300 20px --fontFamily-googleLato"
-						text-decoration-line="initial"
-						hover-text-decoration-line="underline"
-					>
-						ABOUT ME
-					</Link>
-					<Link
-						href="#sec_letstalk"
-						display="flex"
-						padding="0px 6px 0px 12px"
-						color="#2E4053"
-						font="300 20px --fontFamily-googleLato"
-						text-decoration-line="initial"
-						hover-text-decoration-line="underline"
-					>
-						LET'S TALK
-					</Link>
-				</Box>
-			</Box>
-		</Section>
+		<Components.TopSection />
 		<Section
 			text-align="center"
 			padding="100px 0"
@@ -516,7 +474,7 @@ export default (() => {
 			</Text>
 			<Box display="flex" margin="40px 0 20px 0" justify-content="space-around" sm-flex-direction="column">
 				<Box padding="10px">
-					<Image src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/portrait2.svg?v=2021-03-23T13:09:48.184Z" width="570px" max-width="100%" />
+					<Image src="javascript:submitBrowseForm('/images','portrait2.svg','downloadfile','');" width="570px" max-width="100%" />
 					<Text as="h3" font="normal 700 35px/1.2 --fontFamily-serifGeorgia" margin="20px 0 0 0" color="#2E4053">
 						Collectively to design high quality products.
 					</Text>
