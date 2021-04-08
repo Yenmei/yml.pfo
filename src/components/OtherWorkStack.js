@@ -162,7 +162,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "link",
-			"href": "3d_animation"
+			"href": "/index/3d_animation"
 		}
 	}
 };
