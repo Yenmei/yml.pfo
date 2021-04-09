@@ -50,6 +50,9 @@ export default (() => {
 							font="300 16px --fontFamily-googleLato"
 							text-decoration-line="initial"
 							hover-text-decoration-line="underline"
+							sm-background="rgba(210, 210, 210, 0.6)"
+							sm-padding="0px 6px 0px 6px"
+							sm-margin="0px 6px 0px 0px"
 						>
 							ABOUT ME
 						</Link>
@@ -61,6 +64,8 @@ export default (() => {
 							font="300 16px --fontFamily-googleLato"
 							text-decoration-line="initial"
 							hover-text-decoration-line="underline"
+							sm-padding="0px 6px 0px 6px"
+							sm-background="rgba(210, 210, 210, 0.6)"
 						>
 							LET'S TALK
 						</Link>
@@ -128,16 +133,20 @@ export default (() => {
 				<Box
 					padding="10px"
 					margin="5rem 0px 5rem 0px"
-					sm-width="370px"
+					sm-width="337px"
 					sm-padding="10px 0 10px 0"
 					sm-margin="3rem 0px 3rem 0px"
+					sm-overflow-x="hidden"
+					sm-display="block"
 				>
 					<Image
 						src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_1.png?v=2021-03-23T13:09:48.179Z"
 						width="600px"
 						max-width="100%"
 						md-width="450px"
-						sm-width="370px"
+						sm-width="320px"
+						sm-overflow-x="hidden"
+						sm-display="flex"
 					/>
 				</Box>
 				<Text
@@ -148,6 +157,7 @@ export default (() => {
 					color="#2E4053"
 					max-width="850px"
 					letter-spacing="-1px"
+					sm-font="normal 900 25px/1.2 --fontFamily-serifGeorgia"
 				>
 					1. Carsharing is an application with an attempt to maximize the use of personal cars.
 				</Text>
@@ -160,6 +170,7 @@ export default (() => {
 					letter-spacing="0.06rem"
 					md-font="normal 300 22px/1.5 --fontFamily-googleLato"
 					md-letter-spacing={0}
+					sm-font="normal 300 18px/1.5 --fontFamily-googleLato"
 				>
 					Researches show the average daily use of private car is only 63 minutes per day. Furthermore, cars are not used for 67 days on annual basis(more than two months). All information cumulates the fact that 96% of the time, cars are just parked at a standstill. Dedicate to enable the general public to catch the innovational concept of "car sharing" in the wave of the digital age.
 				</Text>
@@ -171,6 +182,7 @@ export default (() => {
 					color="#2E4053"
 					max-width="850px"
 					letter-spacing="-1px"
+					sm-font="normal 900 25px/1.2 --fontFamily-serifGeorgia"
 				>
 					2. Informative/detailed description helps users make best choice.
 				</Text>
@@ -183,6 +195,7 @@ export default (() => {
 					letter-spacing="0.06rem"
 					md-font="normal 300 22px/1.5 --fontFamily-googleLato"
 					md-letter-spacing={0}
+					sm-font="normal 300 18px/1.5 --fontFamily-googleLato"
 				>
 					Vehicle list: Through interviews, it was found that when choosing a car, clear vehicle information such as fuel level display, can help users find a suitable vehicle more efficiently. However, information shall not carry too much as it’s hard for users to making comparison.
 				</Text>
@@ -194,6 +207,7 @@ export default (() => {
 					color="#2E4053"
 					max-width="850px"
 					letter-spacing="-1px"
+					sm-font="normal 900 25px/1.2 --fontFamily-serifGeorgia"
 				>
 					3. Feature
 				</Text>
@@ -206,6 +220,7 @@ export default (() => {
 					letter-spacing="0.06rem"
 					md-font="normal 300 22px/1.5 --fontFamily-googleLato"
 					md-letter-spacing={0}
+					sm-font="normal 300 18px/1.5 --fontFamily-googleLato"
 				>
 					The deep blue background stands for relaxing and the comforting lifestyle, while the greenish-blue shows energy and freedom.
 				</Text>
@@ -239,6 +254,7 @@ export default (() => {
 				margin="0 auto 5px auto"
 				text-align="center"
 				color="#2E4053"
+				sm-font="normal 900 35px/1.2 --fontFamily-serifGeorgia"
 			>
 				OTHER WORKS
 			</Text>
@@ -250,6 +266,7 @@ export default (() => {
 				text-align="center"
 				font="normal 300 20px/1.5 --fontFamily-googleLato"
 				md-font="normal 300 23px/1.5 --fontFamily-googleLato"
+				sm-font="normal 300 18px/1.5 --fontFamily-googleLato"
 			>
 				Next journey…
 			</Text>
@@ -462,7 +479,9 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.FooterofWork />
+		<Components.FooterofWork>
+			<Override slot="box" sm-width="330px" />
+		</Components.FooterofWork>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

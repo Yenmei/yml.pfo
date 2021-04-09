@@ -22,8 +22,8 @@ const overrides = {
 					font="300 16px --fontFamily-googleLato"
 					text-decoration-line="initial"
 					color="#d2d2d2"
-					padding="10px 36px 10px 48px"
-					width="33%"
+					padding="10px 20px 10px 30px"
+					width="20%"
 					hover-text-decoration-line="underline"
 				>
 					TOP
@@ -34,7 +34,7 @@ const overrides = {
 					text-decoration-line="initial"
 					color="#d2d2d2"
 					padding="10px 24px 10px 36px"
-					width="33%"
+					width="46%"
 					hover-text-decoration-line="underline"
 				>
 					ABOUT ME
@@ -50,7 +50,8 @@ const overrides = {
 				>
 					HOME
 				</Link>
-			</>
+			</>,
+			"sm-width": "372px"
 		}
 	}
 };
