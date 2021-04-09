@@ -107,7 +107,6 @@ export default (() => {
 						{" "}
 						<Span
 							color="#AD7D52"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"

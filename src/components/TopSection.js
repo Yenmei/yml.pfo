@@ -38,7 +38,7 @@ const overrides = {
 					display="flex"
 					padding="0px 12px 0px 6px"
 					color="#2E4053"
-					font="300 20px --fontFamily-googleLato"
+					font="300 16px --fontFamily-googleLato"
 					text-decoration-line="initial"
 					hover-text-decoration-line="underline"
 				>
@@ -49,7 +49,7 @@ const overrides = {
 					display="flex"
 					padding="0px 6px 0px 12px"
 					color="#2E4053"
-					font="300 20px --fontFamily-googleLato"
+					font="300 16px --fontFamily-googleLato"
 					text-decoration-line="initial"
 					hover-text-decoration-line="underline"
 				>

@@ -103,7 +103,6 @@ export default (() => {
 					<Text margin="0px" font="300 20px/24px --fontFamily-googleLato" md-color="#2E4053">
 						<Span
 							color="#2E4053"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -116,7 +115,6 @@ export default (() => {
 						{" "}
 						<Span
 							color="#AD7D52"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"

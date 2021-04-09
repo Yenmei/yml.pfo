@@ -19,7 +19,7 @@ const overrides = {
 			"children": <>
 				<Link
 					href="/index/#sec_top"
-					font="300 20px --fontFamily-googleLato"
+					font="300 16px --fontFamily-googleLato"
 					text-decoration-line="initial"
 					color="#d2d2d2"
 					padding="10px 36px 10px 48px"
@@ -30,7 +30,7 @@ const overrides = {
 				</Link>
 				<Link
 					href="/index/#sec_aboutme"
-					font="300 20px --fontFamily-googleLato"
+					font="300 16px --fontFamily-googleLato"
 					text-decoration-line="initial"
 					color="#d2d2d2"
 					padding="10px 24px 10px 36px"
@@ -41,7 +41,7 @@ const overrides = {
 				</Link>
 				<Link
 					href="/index"
-					font="300 20px --fontFamily-googleLato"
+					font="300 16px --fontFamily-googleLato"
 					text-decoration-line="initial"
 					color="#d2d2d2"
 					padding="10px 24px 10px 24px"

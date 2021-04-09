@@ -146,7 +146,6 @@ export default (() => {
 							padding="0 25px 0 30px"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -159,7 +158,6 @@ export default (() => {
 							</Span>
 							{"  "}
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -214,7 +212,6 @@ export default (() => {
 							padding="0 25px 0 30px"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -271,7 +268,6 @@ export default (() => {
 							padding="0 25px 0 30px"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -328,7 +324,6 @@ export default (() => {
 							padding="0 25px 0 30px"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -385,7 +380,6 @@ export default (() => {
 							padding="0 25px 0 30px"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -442,7 +436,6 @@ export default (() => {
 							padding="0 25px 0 30px"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"

@@ -3,7 +3,8 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
+import { Section, Override, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index/carsharing"} />
@@ -22,19 +23,14 @@ export default (() => {
 			color="--light"
 			font="--base"
 		>
-			<Section>
-				<Override slot="SectionContent" md-flex-direction="row" />
+			<Section id="sec_top">
 				<Box
 					display="flex"
 					padding="12px 0"
 					justify-content="space-between"
 					align-items="center"
 					flex-direction="row"
-					md-flex-direction="row"
-					md-justify-content="space-between"
-					md-width="700px"
-					sm-flex-direction="column"
-					sm-justify-content="space-between"
+					md-flex-direction="column"
 				>
 					<Text
 						margin="0"
@@ -45,18 +41,30 @@ export default (() => {
 					>
 						Yenmei
 					</Text>
-					<Menu display="flex" md-display="flex" sm-background="rgba(160, 245, 245, 0.45)">
-						<Override slot="link" color="#2E4053" text-decoration-line="initial" hover-text-decoration-line="underline">
+					<Box display="flex" width="max-content">
+						<Link
+							href="index/#sec_aboutme"
+							display="flex"
+							padding="0px 12px 0px 6px"
+							color="#2E4053"
+							font="300 16px --fontFamily-googleLato"
+							text-decoration-line="initial"
+							hover-text-decoration-line="underline"
+						>
 							ABOUT ME
-						</Override>
-						<Override slot="link-index" color="#2E4053">
-							OTHER WORKS
-						</Override>
-						<Override slot="link-active" color="#2E4053" />
-						<Override slot="link-index1" font="18px sans-serif">
+						</Link>
+						<Link
+							href="index/#sec_letstalk"
+							display="flex"
+							padding="0px 6px 0px 12px"
+							color="#2E4053"
+							font="300 16px --fontFamily-googleLato"
+							text-decoration-line="initial"
+							hover-text-decoration-line="underline"
+						>
 							LET'S TALK
-						</Override>
-					</Menu>
+						</Link>
+					</Box>
 				</Box>
 			</Section>
 			<Section
@@ -106,7 +114,6 @@ export default (() => {
 						{" "}
 						<Span
 							color="#AD7D52"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -136,7 +143,7 @@ export default (() => {
 				<Text
 					as="h1"
 					margin="8px 0px 32px"
-					font="normal 700 40px/1.2 --fontFamily-serifGeorgia"
+					font="normal 700 35px/1.2 --fontFamily-serifGeorgia"
 					md-font="normal 900 31px/1.2 --fontFamily-serifGeorgia"
 					color="#2E4053"
 					max-width="850px"
@@ -149,7 +156,7 @@ export default (() => {
 					color="#2E4053"
 					max-width="800px"
 					text-align="left"
-					font="normal 300 25px/1.5 --fontFamily-googleLato"
+					font="normal 300 20px/1.5 --fontFamily-googleLato"
 					letter-spacing="0.06rem"
 					md-font="normal 300 22px/1.5 --fontFamily-googleLato"
 					md-letter-spacing={0}
@@ -159,7 +166,7 @@ export default (() => {
 				<Text
 					as="h1"
 					margin="40px 0px 32px 0px"
-					font="normal 700 40px/1.2 --fontFamily-serifGeorgia"
+					font="normal 700 35px/1.2 --fontFamily-serifGeorgia"
 					md-font="normal 900 31px/1.2 --fontFamily-serifGeorgia"
 					color="#2E4053"
 					max-width="850px"
@@ -172,7 +179,7 @@ export default (() => {
 					color="#2E4053"
 					max-width="800px"
 					text-align="left"
-					font="normal 300 25px/1.5 --fontFamily-googleLato"
+					font="normal 300 20px/1.5 --fontFamily-googleLato"
 					letter-spacing="0.06rem"
 					md-font="normal 300 22px/1.5 --fontFamily-googleLato"
 					md-letter-spacing={0}
@@ -182,7 +189,7 @@ export default (() => {
 				<Text
 					as="h1"
 					margin="40px 0px 32px 0px"
-					font="normal 700 40px/1.2 --fontFamily-serifGeorgia"
+					font="normal 700 35px/1.2 --fontFamily-serifGeorgia"
 					md-font="normal 900 31px/1.2 --fontFamily-serifGeorgia"
 					color="#2E4053"
 					max-width="850px"
@@ -195,7 +202,7 @@ export default (() => {
 					color="#2E4053"
 					max-width="800px"
 					text-align="left"
-					font="normal 300 25px/1.5 --fontFamily-googleLato"
+					font="normal 300 20px/1.5 --fontFamily-googleLato"
 					letter-spacing="0.06rem"
 					md-font="normal 300 22px/1.5 --fontFamily-googleLato"
 					md-letter-spacing={0}
@@ -226,7 +233,7 @@ export default (() => {
 		>
 			<Text
 				as="h1"
-				font="normal 900 72px/1.2 --fontFamily-serifGeorgia"
+				font="normal 900 55px/1.2 --fontFamily-serifGeorgia"
 				md-font="normal 900 42px/1.2 --fontFamily-serifGeorgia"
 				max-width="800px"
 				margin="0 auto 5px auto"
@@ -241,7 +248,7 @@ export default (() => {
 				max-width="550px"
 				margin="0 auto"
 				text-align="center"
-				font="normal 300 25px/1.5 --fontFamily-googleLato"
+				font="normal 300 20px/1.5 --fontFamily-googleLato"
 				md-font="normal 300 23px/1.5 --fontFamily-googleLato"
 			>
 				Next journey…
@@ -455,37 +462,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
-			<Menu
-				display="flex"
-				justify-content="center"
-				font="--lead"
-				margin="-6px 0 16px"
-				md-flex-direction="column"
-				md-align-items="center"
-			>
-				<Override
-					slot="link"
-					text-decoration="none"
-					color="#D2D2D2"
-					padding="6px 20px 6px 20px"
-					hover-text-decoration-line="underline"
-					font="300 18px/30px Lato, sans-serif"
-				/>
-				<Override slot="link-active" color="#D2D2D2" font="300 18px/30px --fontFamily-googleLato" hover-text-decoration-line="underline" />
-				<Override slot="item" padding="6px 0px" />
-				<Override slot="link-404">
-					ABOUT ME
-				</Override>
-				<Override slot="link-item" font="300 20px/30px --fontFamily-googleLato" hover-text-decoration-line="underline">
-					ABOUT ME
-				</Override>
-				<Override slot="link-index" font="300 18px/30px --fontFamily-googleLato" hover-text-decoration-line="underline">
-					LET'S TALK
-				</Override>
-				<Override slot="link-index1" display="none" />
-			</Menu>
-		</Section>
+		<Components.FooterofWork />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
