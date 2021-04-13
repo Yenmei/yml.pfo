@@ -174,7 +174,15 @@ export default (() => {
 				Try different styles of painting and bring vitality to the content with bright tones.
 			</Text>
 		</Section>
-		<Components.CardsWork />
+		<Components.CardsWork>
+			<Override slot="otherWorkStack">
+				<Override slot="cardLinkOverride3" href="/index/carsharing" />
+				<Override slot="cardLinkOverride7" href="/index/cardiago" />
+				<Override slot="cardLinkOverride11" href="/index/evtaxi" />
+				<Override slot="cardLinkOverride15" href="/index/jianshi_township" />
+				<Override slot="cardLinkOverride19" href="/index/3d_animation" />
+			</Override>
+		</Components.CardsWork>
 		<Components.Footer2 />
 		<Link
 			font={"--capture"}
