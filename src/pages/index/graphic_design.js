@@ -36,7 +36,7 @@ export default (() => {
 				</Text>
 				<Box display="flex" width="max-content">
 					<Link
-						href="#sec_aboutme"
+						href="/index/#sec_aboutme"
 						display="flex"
 						padding="0px 12px 0px 6px"
 						color="#2E4053"
@@ -47,7 +47,7 @@ export default (() => {
 						ABOUT ME
 					</Link>
 					<Link
-						href="#sec_letstalk"
+						href="/index/#sec_letstalk"
 						display="flex"
 						padding="0px 6px 0px 12px"
 						color="#2E4053"
