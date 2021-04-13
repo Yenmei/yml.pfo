@@ -91,7 +91,7 @@ export default (() => {
 					sm-background="rgba(0, 0, 0, 0)"
 					width="min-content"
 					padding="0.3rem 0.5rem 0.3rem 0.5rem"
-					background="rgba(210, 210, 210, 0.5)"
+					background="rgba(210, 210, 210, 0.6)"
 				>
 					<Text
 						font="normal 300 18px/1.5 --fontFamily-googleLato"

@@ -135,16 +135,17 @@ export default (() => {
 				</Box>
 				<Box
 					padding="10px"
-					margin="5rem 0px 5rem 0px"
+					margin="20rem 0px 0rem 0px"
 					sm-width="90%"
 					sm-padding="10px 0 10px 0"
 					sm-margin="3rem auto 3rem auto"
 					sm-overflow-x="hidden"
 					sm-display="block"
+					md-margin="0rem 0px 0rem 0px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_1.png?v=2021-03-23T13:09:48.159Z"
-						width="600px"
+						width="800px"
 						max-width="100%"
 						md-width="450px"
 						sm-width="100%"
@@ -231,9 +232,10 @@ export default (() => {
 					md-left="50%"
 					md-width="80px"
 					sm-left="20%"
-					sm-width="180px"
+					sm-width="120px"
 					md-max-width="none"
 					md-display="block"
+					sm-margin="0px 0px 0px 40%"
 				/>
 			</Section>
 		</Section>

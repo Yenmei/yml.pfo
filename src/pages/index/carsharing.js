@@ -89,6 +89,9 @@ export default (() => {
 					sm-width="280px"
 					sm-margin="5rem 0px 0px 0px"
 					sm-background="rgba(0, 0, 0, 0)"
+					width="fit-content"
+					padding="1rem 1rem 1rem 1rem"
+					background="rgba(210, 210, 210, 0.4)"
 				>
 					<Text
 						font="normal 300 18px/1.5 --fontFamily-googleLato"
@@ -380,7 +383,7 @@ export default (() => {
 						Graphic Design
 					</Override>
 					<Override slot="box" background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_c.png?v=2021-03-23T13:09:48.178Z) 50% 65%/cover no-repeat" />
-					<Override slot="link" href="/index/carsharing" />
+					<Override slot="link" href="/index/graphic_design" />
 				</Components.CardLink>
 			</Stack>
 		</Section>

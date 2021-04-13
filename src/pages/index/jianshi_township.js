@@ -87,7 +87,7 @@ export default (() => {
 					md-background="rgba(160, 245, 245, 0.45)"
 					md-padding="0px 0px 0px 1rem"
 					sm-width="280px"
-					sm-margin="0.8rem 0px 0px 0px"
+					sm-margin="5rem 0px 0px 0px"
 					sm-background="rgba(0, 0, 0, 0)"
 					width="60%"
 					padding="1rem 0px 1rem 1rem"
@@ -103,6 +103,7 @@ export default (() => {
 						md-font="normal 300 18px/1.5 --fontFamily-googleLato"
 						md-width="100px"
 						sm-font="normal 300 16.5px/1.5 --fontFamily-googleLato"
+						sm-width="100%"
 					>
 						UXUI, Visual
 					</Text>
@@ -145,13 +146,14 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box
-					padding="10px"
-					margin="5rem 0px 5rem 0px"
+					padding="0px 10px 0px 0px"
+					margin="10rem 0px 0rem 0px"
 					sm-width="337px"
 					sm-padding="10px 0 10px 0"
 					sm-margin="3rem 0px 3rem 0px"
 					sm-overflow-x="hidden"
 					sm-display="block"
+					md-margin="2rem 0px 0rem 0px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_1.png?v=2021-03-23T13:09:48.199Z"
@@ -163,10 +165,11 @@ export default (() => {
 						sm-display="flex"
 						margin="10rem 0px 0px 0px"
 						sm-margin="0px 0px 0px 0px"
+						md-margin="0px 0px 0px 0px"
 					/>
 				</Box>
 				<Box
-					display="flex"
+					display="block"
 					flex-direction="column"
 					align-items="center"
 					sm-width="95%"
@@ -174,6 +177,8 @@ export default (() => {
 					sm-align-items="center"
 					sm-display="block"
 					sm-margin="0px auto 0px auto"
+					width="600px"
+					margin="0px auto 0px auto"
 				>
 					<Text
 						as="h1"
@@ -379,7 +384,79 @@ export default (() => {
 				</Components.CardLink>
 			</Stack>
 		</Section>
-		<Components.Footer2 />
+		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
+			<Box
+				width="600px"
+				display="flex"
+				justify-content="center"
+				align-items="center"
+				margin="1rem auto 1.5rem auto"
+				sm-width="300px"
+				sm-height="auto"
+				sm-display="inline-block"
+				sm-margin="0 auto 0 auto"
+			>
+				<Link
+					href="#sec_top"
+					display="inline-flex"
+					justify-content="center"
+					color="#d2d2d2"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
+					width="33%"
+					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-padding="0 auto 3px auto"
+					sm-width="250px"
+					sm-display="inline-flex"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
+				>
+					TOP
+				</Link>
+				<Link
+					href="/index/#sec_aboutme"
+					display="inline-flex"
+					justify-content="center"
+					color="#d2d2d2"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
+					width="33%"
+					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-display="inline-flex"
+					sm-width="250px"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
+				>
+					ABOUT ME
+				</Link>
+				<Link
+					href="/index/#sec_letstalk"
+					display="inline-flex"
+					justify-content="center"
+					color="#d2d2d2"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
+					width="33%"
+					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-padding="0 auto 3px auto"
+					sm-display="inline-flex"
+					sm-width="250px"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
+				>
+					LET'S TALK
+				</Link>
+			</Box>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
