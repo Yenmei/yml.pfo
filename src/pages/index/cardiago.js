@@ -358,7 +358,7 @@ export default (() => {
 						EVTaxi
 					</Override>
 					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover" />
-					<Override slot="link" href="/evtaxi" />
+					<Override slot="link" href="/index/evtaxi" />
 				</Components.CardLink>
 				<Components.CardLink>
 					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
@@ -375,7 +375,7 @@ export default (() => {
 						Jianshi Township
 					</Override>
 					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 0% 0%/cover no-repeat" />
-					<Override slot="link" href="/jianshi_township" />
+					<Override slot="link" href="/index/jianshi_township" />
 				</Components.CardLink>
 				<Components.CardLink>
 					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
@@ -392,7 +392,7 @@ export default (() => {
 						3D / Animation
 					</Override>
 					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 50% 0%/cover no-repeat" />
-					<Override slot="link" href="/3d_animation" />
+					<Override slot="link" href="/index/3d_animation" />
 				</Components.CardLink>
 				<Components.CardLink>
 					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
@@ -409,7 +409,7 @@ export default (() => {
 						Graphic Design
 					</Override>
 					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_c.png?v=2021-03-23T13:09:48.178Z) 50% 40%/cover no-repeat" />
-					<Override slot="link" href="/graphic_design" />
+					<Override slot="link" href="/index/graphic_design" />
 				</Components.CardLink>
 				<Components.CardLink>
 					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
@@ -426,7 +426,7 @@ export default (() => {
 						Carsharing
 					</Override>
 					<Override slot="box" background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat" />
-					<Override slot="link" href="/carsharing" />
+					<Override slot="link" href="/index/carsharing" />
 				</Components.CardLink>
 			</Stack>
 		</Section>

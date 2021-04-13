@@ -246,7 +246,7 @@ export default (() => {
 						hover-background="--color-light"
 						box-shadow="--l"
 					/>
-					<Link href="graphic_design" display="flex" flex-direction="column" />
+					<Link href="/index/graphic_design" display="flex" flex-direction="column" />
 					<Box
 						height="0"
 						margin="0 0 20px 0"
@@ -284,7 +284,7 @@ export default (() => {
 						hover-background="--color-light"
 						box-shadow="--l"
 					/>
-					<Link href="carshring" display="flex" flex-direction="column" />
+					<Link href="/index/carshring" display="flex" flex-direction="column" />
 					<Box
 						height="0"
 						margin="0 0 20px 0"
@@ -322,7 +322,7 @@ export default (() => {
 						hover-background="--color-light"
 						box-shadow="--l"
 					/>
-					<Link href="/cardiago" display="flex" flex-direction="column" />
+					<Link href="/index/cardiago" display="flex" flex-direction="column" />
 					<Box
 						height="0"
 						margin="0 0 20px 0"
@@ -360,7 +360,7 @@ export default (() => {
 						hover-background="--color-light"
 						box-shadow="--l"
 					/>
-					<Link href="evtaxi" display="flex" flex-direction="column" />
+					<Link href="/index/evtaxi" display="flex" flex-direction="column" />
 					<Box
 						height="0"
 						margin="0 0 20px 0"
@@ -398,6 +398,7 @@ export default (() => {
 						hover-background="--color-light"
 						box-shadow="--l"
 					/>
+					<Link href="/index/jianshi_township" display="flex" flex-direction="column" />
 					<Box
 						height="0"
 						margin="0 0 20px 0"
