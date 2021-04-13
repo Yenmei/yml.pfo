@@ -40,14 +40,14 @@ export default (() => {
 						margin="20% 0px auto 0px"
 						sm-margin="10% 0px auto 0px"
 						color="#2E4053"
-						font="normal 700 37px/100% --fontFamily-serifGeorgia"
+						font="normal 700 30px/100% --fontFamily-serifGeorgia"
 						sm-font="normal 700 30px/100% --fontFamily-serifGeorgia"
 					>
 						Hi, I'm a Visual / Interface designer,
 					</Text>
 					<Text
 						as="p"
-						font="300 27px --fontFamily-googleLato"
+						font="300 18px --fontFamily-googleLato"
 						color="--greyD2"
 						sm-font="300 20px --fontFamily-googleLato"
 						margin="16px 0px 30px 0px"
@@ -58,9 +58,9 @@ export default (() => {
 						href="#sec_works"
 						background="#4aa7c0"
 						color="#E1FFFF"
-						font="27px --fontFamily-googleLato"
+						font="22px --fontFamily-googleLato"
 						text-decoration-line="initial"
-						padding="12px 50px 18px 50px"
+						padding="8px 35px 14px 40px"
 						letter-spacing="0.1rem"
 						border-radius="45px"
 						box-shadow="--m"
@@ -82,7 +82,7 @@ export default (() => {
 		>
 			<Text
 				as="h1"
-				font="normal 900 72px/1.2 --fontFamily-serifGeorgia"
+				font="normal 900 55px/1.2 --fontFamily-serifGeorgia"
 				md-font="normal 900 42px/1.2 --fontFamily-serifGeorgia"
 				max-width="520px"
 				margin="0 auto 5px auto"
@@ -97,7 +97,7 @@ export default (() => {
 				max-width="550px"
 				margin="0 auto"
 				text-align="center"
-				font="normal 300 25px/1.5 --fontFamily-googleLato"
+				font="normal 300 20px/1.5 --fontFamily-googleLato"
 				sm-font="normal 300 20px/1.5 --fontFamily-googleLato"
 			>
 				Most UX/UI works are related to automobiles as acting as designer of automotive telematics before.
@@ -123,9 +123,15 @@ export default (() => {
 							padding-bottom="100%"
 							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_c.png?v=2021-03-23T13:09:48.178Z) 50% 60%/cover no-repeat"
 							border-radius="20px 20px 0px 0px"
-							width="358.179px"
+							width="100%"
 						/>
-						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+						<Text
+							color="--greyD2"
+							margin="0"
+							letter-spacing="0.17rem"
+							padding="0 0 0 30px"
+							font="300 14px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+						>
 							E Flyer
 						</Text>
 						<Text
@@ -140,7 +146,7 @@ export default (() => {
 						<Text
 							as="p"
 							margin="7px 0 20px 0"
-							font="300 20px/24px --fontFamily-googleLato"
+							font="300 16px/24px --fontFamily-googleLato"
 							letter-spacing="0.05rem"
 							color="#AD7D52"
 							padding="0 25px 0 30px"
@@ -191,7 +197,13 @@ export default (() => {
 							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat"
 							border-radius="20px 20px 0px 0px"
 						/>
-						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+						<Text
+							color="--greyD2"
+							margin="0"
+							letter-spacing="0.17rem"
+							padding="0 0 0 30px"
+							font="300 14px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+						>
 							UXUI
 						</Text>
 						<Text
@@ -206,7 +218,7 @@ export default (() => {
 						<Text
 							as="p"
 							margin="7px 0 30px 0"
-							font="300 20px/24px --fontFamily-googleLato"
+							font="300 16px/24px --fontFamily-googleLato"
 							letter-spacing="0.05rem"
 							color="#AD7D52"
 							padding="0 25px 0 30px"
@@ -247,7 +259,13 @@ export default (() => {
 							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat"
 							border-radius="20px 20px 0px 0px"
 						/>
-						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+						<Text
+							color="--greyD2"
+							margin="0"
+							letter-spacing="0.17rem"
+							padding="0 0 0 30px"
+							font="300 14px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+						>
 							UXUI
 						</Text>
 						<Text
@@ -262,7 +280,7 @@ export default (() => {
 						<Text
 							as="p"
 							margin="7px 0 30px 0"
-							font="300 20px/24px --fontFamily-googleLato"
+							font="300 16px/24px --fontFamily-googleLato"
 							letter-spacing="0.05rem"
 							color="#AD7D52"
 							padding="0 25px 0 30px"
@@ -303,7 +321,13 @@ export default (() => {
 							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover no-repeat"
 							border-radius="20px 20px 0px 0px"
 						/>
-						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+						<Text
+							color="--greyD2"
+							margin="0"
+							letter-spacing="0.17rem"
+							padding="0 0 0 30px"
+							font="300 14px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+						>
 							UXUI
 						</Text>
 						<Text
@@ -318,7 +342,7 @@ export default (() => {
 						<Text
 							as="p"
 							margin="7px 0 30px 0"
-							font="300 20px/24px --fontFamily-googleLato"
+							font="300 16px/24px --fontFamily-googleLato"
 							letter-spacing="0.05rem"
 							color="#AD7D52"
 							padding="0 25px 0 30px"
@@ -359,7 +383,13 @@ export default (() => {
 							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 50% 0/cover no-repeat"
 							border-radius="20px 20px 0px 0px"
 						/>
-						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+						<Text
+							color="--greyD2"
+							margin="0"
+							letter-spacing="0.17rem"
+							padding="0 0 0 30px"
+							font="300 14px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+						>
 							UXUI, Visual
 						</Text>
 						<Text
@@ -374,7 +404,7 @@ export default (() => {
 						<Text
 							as="p"
 							margin="7px 0 30px 0"
-							font="300 20px/24px --fontFamily-googleLato"
+							font="300 16px/24px --fontFamily-googleLato"
 							letter-spacing="0.05rem"
 							color="#AD7D52"
 							padding="0 25px 0 30px"
@@ -415,7 +445,13 @@ export default (() => {
 							background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 60% 0%/cover no-repeat"
 							border-radius="20px 20px 0px 0px"
 						/>
-						<Text color="--greyD2" margin="0" letter-spacing="0.17rem" padding="0 0 0 30px">
+						<Text
+							color="--greyD2"
+							margin="0"
+							letter-spacing="0.17rem"
+							padding="0 0 0 30px"
+							font="300 14px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+						>
 							Craft
 						</Text>
 						<Text
@@ -430,7 +466,7 @@ export default (() => {
 						<Text
 							as="p"
 							margin="7px 0 30px 0"
-							font="300 20px/24px --fontFamily-googleLato"
+							font="300 16px/24px --fontFamily-googleLato"
 							letter-spacing="0.05rem"
 							color="#AD7D52"
 							padding="0 25px 0 30px"
@@ -455,7 +491,7 @@ export default (() => {
 		<Section text-align="center" padding="100px 0" sm-padding="40px 0">
 			<Text
 				as="h1"
-				font="normal 900 72px/1.2 --fontFamily-serifGeorgia"
+				font="normal 900 55px/1.2 --fontFamily-serifGeorgia"
 				md-font="--headline2"
 				max-width="520px"
 				margin="0 auto 5px auto"
@@ -467,13 +503,13 @@ export default (() => {
 			</Text>
 			<Box display="flex" margin="40px 0 20px 0" justify-content="space-around" sm-flex-direction="column">
 				<Box padding="10px">
-					<Image src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/portrait2.svg?v=2021-03-23T13:09:48.184Z" width="570px" max-width="100%" />
-					<Text as="h3" font="normal 700 35px/1.2 --fontFamily-serifGeorgia" margin="20px 0 0 0" color="#2E4053">
+					<Image src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/portrait2.gif?v=2021-04-12T17:43:04.078Z" width="400px" max-width="100%" />
+					<Text as="h3" font="normal 700 30px/1.2 --fontFamily-serifGeorgia" margin="20px 0 0 0" color="#2E4053">
 						Collectively to design high quality products.
 					</Text>
 					<Text
 						as="p"
-						font="normal 300 22px/1.5 --fontFamily-googleLato"
+						font="normal 300 18px/1.5 --fontFamily-googleLato"
 						margin="20px auto 0 auto"
 						text-align="left"
 						width="680px"
@@ -499,7 +535,7 @@ To wisely leverage all talents and traits from various team member, open communi
 					<Override slot="StackItemContent" flex-direction="column" margin="0 0px 0px 0px" />
 					<Text
 						as="h1"
-						font="normal 900 58px/1.2 --fontFamily-serifGeorgia"
+						font="normal 900 55px/1.2 --fontFamily-serifGeorgia"
 						md-font="--headline2"
 						max-width="520px"
 						margin="10rem auto 5px 0"
@@ -515,7 +551,7 @@ To wisely leverage all talents and traits from various team member, open communi
 						max-width="550px"
 						margin="0 0 0 0"
 						text-align="left"
-						font="normal 300 22px/1.5 --fontFamily-googleLato"
+						font="normal 300 18px/1.5 --fontFamily-googleLato"
 						sm-font="normal 300 20px/1.5 --fontFamily-googleLato"
 					>
 						Interested in my works and want to hire me? Feel free to leave your message, I will respond as soon as possible.
@@ -583,42 +619,72 @@ To wisely leverage all talents and traits from various team member, open communi
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
 			<Box
+				width="600px"
 				display="flex"
-				align-items="center"
 				justify-content="center"
-				width="700px"
-				margin="0px auto 0px auto"
+				align-items="center"
+				margin="1rem auto 1.5rem auto"
+				sm-width="300px"
+				sm-height="auto"
+				sm-display="inline-block"
+				sm-margin="0 auto 0 auto"
 			>
 				<Link
-					href="#sec_top"
-					font="300 20px --fontFamily-googleLato"
-					text-decoration-line="initial"
+					href="#top"
+					display="inline-flex"
+					justify-content="center"
 					color="#d2d2d2"
-					padding="10px 36px 10px 48px"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
 					width="33%"
 					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-padding="0 auto 3px auto"
+					sm-width="250px"
+					sm-display="inline-flex"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
 				>
 					TOP
 				</Link>
 				<Link
-					href="#sec_aboutme"
-					font="300 20px --fontFamily-googleLato"
-					text-decoration-line="initial"
+					href="index/#sec_aboutme"
+					display="inline-flex"
+					justify-content="center"
 					color="#d2d2d2"
-					padding="10px 24px 10px 36px"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
 					width="33%"
 					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-display="inline-flex"
+					sm-width="250px"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
 				>
 					ABOUT ME
 				</Link>
 				<Link
-					href="#sec_works"
-					font="300 20px --fontFamily-googleLato"
-					text-decoration-line="initial"
+					href="index/#sec_letstalk"
+					display="inline-flex"
+					justify-content="center"
 					color="#d2d2d2"
-					padding="10px 24px 10px 24px"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
 					width="33%"
 					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-padding="0 auto 3px auto"
+					sm-display="inline-flex"
+					sm-width="250px"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
 				>
 					OTHER WORKS
 				</Link>

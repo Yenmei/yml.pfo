@@ -1,4 +1,5 @@
-export { default as FooterofWork } from "./FooterofWork"
+export { default as CardsWork } from "./CardsWork"
 export { default as OtherWorkStack } from "./OtherWorkStack"
 export { default as CardLink } from "./CardLink"
+export { default as Footer2 } from "./Footer2"
 export { default as TopSection } from "./TopSection"
