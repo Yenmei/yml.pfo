@@ -22,7 +22,7 @@ const overrides = {
 			"sm-margin": "0 auto 0 auto",
 			"children": <>
 				<Link
-					href="#top"
+					href="#sec_top"
 					display="inline-flex"
 					justify-content="center"
 					color="#d2d2d2"
@@ -42,7 +42,7 @@ const overrides = {
 					TOP
 				</Link>
 				<Link
-					href="index/#sec_aboutme"
+					href="/index/#sec_aboutme"
 					display="inline-flex"
 					justify-content="center"
 					color="#d2d2d2"
@@ -61,7 +61,7 @@ const overrides = {
 					ABOUT ME
 				</Link>
 				<Link
-					href="index/#sec_letstalk"
+					href="/index/#sec_letstalk"
 					display="inline-flex"
 					justify-content="center"
 					color="#d2d2d2"

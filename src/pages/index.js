@@ -711,7 +711,7 @@ To wisely leverage all talents and traits from various team member, open communi
 					ABOUT ME
 				</Link>
 				<Link
-					href="#sec_letstalk"
+					href="#sec_works"
 					display="inline-flex"
 					justify-content="center"
 					color="#d2d2d2"
