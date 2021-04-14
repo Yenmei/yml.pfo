@@ -79,8 +79,11 @@ export default (() => {
 					md-background="rgba(160, 245, 245, 0.45)"
 					md-padding="0px 0px 0px 1rem"
 					sm-width="280px"
-					sm-margin="5rem 0px 0px 0px"
+					sm-margin="6rem 0px 0px 0px"
 					sm-background="rgba(0, 0, 0, 0)"
+					width="35%"
+					padding="1rem 1rem 1rem 1rem"
+					background="rgba(210, 210, 210, 0.5)"
 				>
 					<Text
 						font="normal 300 18px/1.5 --fontFamily-googleLato"
@@ -133,6 +136,9 @@ export default (() => {
 					sm-margin="3rem auto 3rem auto"
 					sm-overflow-x="hidden"
 					sm-display="block"
+					md-display="block"
+					md-flex-direction="column"
+					md-justify-content="center"
 					md-margin="0rem 0px 0rem 0px"
 				>
 					<Image
