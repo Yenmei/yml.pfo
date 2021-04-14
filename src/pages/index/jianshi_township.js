@@ -197,7 +197,7 @@ export default (() => {
 						sm-font="normal 300 16.5px/1.5 --fontFamily-googleLato"
 						display="block"
 					>
-						Jianshi Township resides in a mountainous area in northern Taiwan. Even without many people,, public transportation is still needed. If bus transportation runs according to a fixed schedule, it is impossible to balance revenue and flexibility needs of passengers. The dispatch is revised to arrange bus schedules following the requests to maximize the efficiency of resources.
+						Jianshi Township resides in a mountainous area in northern Taiwan. Even without many people, public transportation is still needed. If bus transportation runs according to a fixed schedule, it is impossible to balance revenue and flexibility needs of passengers. The dispatch is revised to arrange bus schedules following the requests to maximize the efficiency of resources.
 					</Text>
 					<Text
 						as="h1"
