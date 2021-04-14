@@ -213,7 +213,7 @@ export default (() => {
 								text-overflow="clip"
 								hyphens="manual"
 							>
-								Posters, covers, Affinity designer, Affinity photo,  2013-2020
+								Posters, covers, Affinity designer, Affinity photo,  2013-2021
 							</Span>
 						</Text>
 					</Link>
