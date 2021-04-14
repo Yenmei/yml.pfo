@@ -540,6 +540,7 @@ export default (() => {
 				text-align="center"
 				color="#2E4053"
 				id="sec_aboutme"
+				sm-font="normal 900 42px/1.2 --fontFamily-serifGeorgia"
 			>
 				ABOUT ME
 			</Text>
@@ -557,6 +558,7 @@ export default (() => {
 						width="680px"
 						color="#2E4053"
 						padding="0px 0 0px 0"
+						sm-width="97%"
 					>
 						Open-minded to comprehend different ideas.
 To wisely leverage all talents and traits from various team member, open communication/discussion to lighten reliable and impressive product feature.
