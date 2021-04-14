@@ -28,7 +28,7 @@ export default (() => {
 				<Components.LogoHomeLink />
 				<Box display="flex" width="max-content">
 					<Link
-						href="index/#sec_aboutme"
+						href="/index/#sec_aboutme"
 						display="flex"
 						padding="0px 12px 0px 6px"
 						color="#2E4053"
@@ -39,7 +39,7 @@ export default (() => {
 						ABOUT ME
 					</Link>
 					<Link
-						href="index/#sec_letstalk"
+						href="/index/#sec_letstalk"
 						display="flex"
 						padding="0px 6px 0px 12px"
 						color="#2E4053"
@@ -240,14 +240,16 @@ export default (() => {
 			color="--dark"
 			id="sec_work"
 		>
+			<Override slot="SectionContent" sm-min-width="16px" sm-width="88%" />
 			<Text
 				as="h1"
-				font="normal 900 55px/1.2 --fontFamily-serifGeorgia"
+				font="normal 900 48px/1.2 --fontFamily-serifGeorgia"
 				md-font="normal 900 42px/1.2 --fontFamily-serifGeorgia"
 				max-width="800px"
 				margin="0 auto 5px auto"
 				text-align="center"
 				color="#2E4053"
+				sm-font="normal 900 30px/1.2 --fontFamily-serifGeorgia"
 			>
 				OTHER WORKS
 			</Text>
@@ -258,211 +260,172 @@ export default (() => {
 				margin="0 auto"
 				text-align="center"
 				font="normal 300 18px/1.5 --fontFamily-googleLato"
+				md-font="normal 300 23px/1.5 --fontFamily-googleLato"
+				sm-font="normal 300 16.5px/1.5 --fontFamily-googleLato"
 			>
 				Next journey…
 			</Text>
-			<Stack
-				margin-top="40px"
-				sm-width="100%"
-				sm-align-items="center"
-				sm-justify-content="center"
-				sm-display="block"
-				sm-margin="0px auto -16px auto"
-				margin="0px -16px -16px -16px"
-			>
-				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Link href="/index/graphic_design" display="flex" flex-direction="column" />
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_c.png?v=2021-03-23T13:09:48.178Z) 0% 40%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text
-						color="--greyD2"
-						margin="0"
-						letter-spacing="0.07rem"
-						padding="0 0 0 20px"
-						font="300 15px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-					>
-						E FLYER
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 25px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 20px"
-					>
-						Graphic Design
-					</Text>
-				</StackItem>
-				<StackItem width="20%" lg-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Link href="/index/carshring" display="flex" flex-direction="column" />
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text
-						color="--greyD2"
-						margin="0"
-						letter-spacing="0.07rem"
-						padding="0 0 0 20px"
-						font="300 15px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-					>
+			<Stack margin-top="40px" sm-margin="0px -16px -16px -16px">
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
 						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 25px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 20px"
-					>
-						Carsharing
-					</Text>
-				</StackItem>
-				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
+					</Override>
 					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Link href="/index/cardiago" display="flex" flex-direction="column" />
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text
-						color="--greyD2"
-						margin="0"
-						letter-spacing="0.07rem"
-						padding="0 0 0 20px"
-						font="300 15px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-					>
-						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 25px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 20px"
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
 					>
 						Cardiago
-					</Text>
-				</StackItem>
-				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Link href="/index/evtaxi" display="flex" flex-direction="column" />
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text
-						color="--greyD2"
-						margin="0"
-						letter-spacing="0.07rem"
-						padding="0 0 0 20px"
-						font="300 15px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-					>
+					</Override>
+					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat" />
+					<Override slot="link" href="/index/cardiago" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
 						UXUI
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 25px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 20px"
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
 					>
 						EVTaxi
-					</Text>
-				</StackItem>
-				<StackItem width="20%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						background="--color-lightD1"
-						border-radius="20px"
-						hover-cursor="pointer"
-						hover-transform="translateY(5px)"
-						hover-background="--color-light"
-						box-shadow="--l"
-					/>
-					<Link href="/index/jianshi_township" display="flex" flex-direction="column" />
-					<Box
-						height="0"
-						margin="0 0 20px 0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 50% 0/cover no-repeat"
-						border-radius="20px 20px 0px 0px"
-					/>
-					<Text
-						color="--greyD2"
-						margin="0"
-						letter-spacing="0.07rem"
-						padding="0 0 0 20px"
-						font="300 15px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-					>
+					</Override>
+					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover" />
+					<Override slot="link" href="/index/evtaxi" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
 						UXUI, Visual
-					</Text>
-					<Text
-						as="h3"
-						font="normal 500 25px/1.2 --fontFamily-serifGeorgia"
-						margin="17px 0 20px 0"
-						color="#2E4053"
-						padding="0 0 0 20px"
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
 					>
 						Jianshi Township
-					</Text>
-				</StackItem>
+					</Override>
+					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 0% 0%/cover no-repeat" />
+					<Override slot="link" href="/index/jianshi_township" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+						Craft
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
+					>
+						3D / Animation
+					</Override>
+					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 50% 0%/cover no-repeat" />
+					<Override slot="link" href="/index/3d_animation" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+						E Flyer
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
+					>
+						Graphic Design
+					</Override>
+					<Override slot="box" background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_c.png?v=2021-03-23T13:09:48.178Z) 50% 65%/cover no-repeat" />
+					<Override slot="link" href="/index/graphic_design" />
+				</Components.CardLink>
 			</Stack>
 		</Section>
-		<Components.Footer2 />
+		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
+			<Box
+				width="600px"
+				display="flex"
+				justify-content="center"
+				align-items="center"
+				margin="1rem auto 1.5rem auto"
+				sm-width="300px"
+				sm-height="auto"
+				sm-display="inline-block"
+				sm-margin="0 auto 0 auto"
+			>
+				<Link
+					href="#sec_top"
+					display="inline-flex"
+					justify-content="center"
+					color="#d2d2d2"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
+					width="33%"
+					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-padding="0 auto 3px auto"
+					sm-width="250px"
+					sm-display="inline-flex"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
+				>
+					TOP
+				</Link>
+				<Link
+					href="/index/#sec_aboutme"
+					display="inline-flex"
+					justify-content="center"
+					color="#d2d2d2"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
+					width="33%"
+					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-display="inline-flex"
+					sm-width="250px"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
+				>
+					ABOUT ME
+				</Link>
+				<Link
+					href="/index/#sec_letstalk"
+					display="inline-flex"
+					justify-content="center"
+					color="#d2d2d2"
+					font="300 16px --fontFamily-googleLato"
+					text-decoration-line="initial"
+					padding="12px 24px 0px 24px"
+					width="33%"
+					hover-text-decoration-line="underline"
+					sm-font="300 16px --fontFamily-googleLato"
+					sm-padding="0 auto 3px auto"
+					sm-display="inline-flex"
+					sm-width="250px"
+					sm-align-items="flex-start"
+					sm-justify-content="center"
+					sm-height="30px"
+				>
+					LET'S TALK
+				</Link>
+			</Box>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
