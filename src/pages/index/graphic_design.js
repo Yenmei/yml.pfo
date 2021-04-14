@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Box, Text, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Section, Override } from "@quarkly/components";
+import { Section, Override, Stack } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -166,15 +166,126 @@ export default (() => {
 				Try different styles of painting and bring vitality to the content with bright tones.
 			</Text>
 		</Section>
-		<Components.CardsWork>
-			<Override slot="otherWorkStack">
-				<Override slot="cardLinkOverride3" href="/index/carsharing" />
-				<Override slot="cardLinkOverride7" href="/index/cardiago" />
-				<Override slot="cardLinkOverride11" href="/index/evtaxi" />
-				<Override slot="cardLinkOverride15" href="/index/jianshi_township" />
-				<Override slot="cardLinkOverride19" href="/index/3d_animation" />
-			</Override>
-		</Components.CardsWork>
+		<Section
+			padding="64px 0"
+			sm-padding="40px 0"
+			font="--base"
+			color="--dark"
+			id="sec_work"
+		>
+			<Override slot="SectionContent" sm-min-width="16px" sm-width="88%" />
+			<Text
+				as="h1"
+				font="normal 900 48px/1.2 --fontFamily-serifGeorgia"
+				md-font="normal 900 42px/1.2 --fontFamily-serifGeorgia"
+				max-width="800px"
+				margin="0 auto 5px auto"
+				text-align="center"
+				color="#2E4053"
+				sm-font="normal 900 30px/1.2 --fontFamily-serifGeorgia"
+			>
+				OTHER WORKS
+			</Text>
+			<Text
+				as="p"
+				color="#2E4053"
+				max-width="550px"
+				margin="0 auto"
+				text-align="center"
+				font="normal 300 18px/1.5 --fontFamily-googleLato"
+				md-font="normal 300 23px/1.5 --fontFamily-googleLato"
+				sm-font="normal 300 16.5px/1.5 --fontFamily-googleLato"
+			>
+				Next journey…
+			</Text>
+			<Stack margin-top="40px" sm-margin="0px -16px -16px -16px">
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+						UXUI
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
+					>
+						Carsharing
+					</Override>
+					<Override slot="box" background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat" />
+					<Override slot="link" href="/index/carsharing" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+						UXUI
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
+					>
+						Cardiago
+					</Override>
+					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat" />
+					<Override slot="link" href="/index/cardiago" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+						UXUI
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
+					>
+						EVTaxi
+					</Override>
+					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover" />
+					<Override slot="link" href="/index/evtaxi" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+						UXUI, Visual
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
+					>
+						Jianshi Township
+					</Override>
+					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 0% 0%/cover no-repeat" />
+					<Override slot="link" href="/index/jianshi_township" />
+				</Components.CardLink>
+				<Components.CardLink>
+					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+						Craft
+					</Override>
+					<Override
+						slot="text1"
+						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 20px 0px"
+						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						margin="0.4rem 0px 1.5rem 0px"
+						padding="0px 0px 0px 25px"
+					>
+						3D / Animation
+					</Override>
+					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 50% 0%/cover no-repeat" />
+					<Override slot="link" href="/index/3d_animation" />
+				</Components.CardLink>
+			</Stack>
+		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
 			<Box
 				width="600px"
