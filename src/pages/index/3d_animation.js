@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Span, Image, Box } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Section, StackItem, Stack } from "@quarkly/components";
+import { Section, Override, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -16,7 +16,42 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/favicon.png?v=2021-03-23T06:10:09.433Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#d2d2d2"} />
 		</Helmet>
-		<Components.TopSection />
+		<Section id="sec_top">
+			<Box
+				display="flex"
+				padding="12px 0"
+				justify-content="space-between"
+				align-items="center"
+				flex-direction="row"
+				md-flex-direction="column"
+			>
+				<Components.LogoHomeLink />
+				<Box display="flex" width="max-content">
+					<Link
+						href="index/#sec_aboutme"
+						display="flex"
+						padding="0px 12px 0px 6px"
+						color="#2E4053"
+						font="300 16px --fontFamily-googleLato"
+						text-decoration-line="initial"
+						hover-text-decoration-line="underline"
+					>
+						ABOUT ME
+					</Link>
+					<Link
+						href="index/#sec_letstalk"
+						display="flex"
+						padding="0px 6px 0px 12px"
+						color="#2E4053"
+						font="300 16px --fontFamily-googleLato"
+						text-decoration-line="initial"
+						hover-text-decoration-line="underline"
+					>
+						LET'S TALK
+					</Link>
+				</Box>
+			</Box>
+		</Section>
 		<Section
 			padding="60px 0 60px 0"
 			sm-padding="40px 0"

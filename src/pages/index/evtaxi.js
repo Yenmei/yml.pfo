@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Span, Image } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Section, Override, Stack } from "@quarkly/components";
@@ -32,15 +32,7 @@ export default (() => {
 					flex-direction="row"
 					md-flex-direction="column"
 				>
-					<Text
-						margin="0"
-						md-margin="0px 0 20px 0"
-						text-align="left"
-						font="normal normal 500 23px/1.3 --fontFamily-googlePtSerif"
-						color="#7dafbe"
-					>
-						Yenmei
-					</Text>
+					<Components.LogoHomeLink />
 					<Box display="flex" width="max-content">
 						<Link
 							href="/index/#sec_aboutme"
