@@ -272,7 +272,7 @@ export default (() => {
 						3D / Animation
 					</Override>
 					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 50% 0%/cover no-repeat" />
-					<Override slot="link" href="/index/3d_animation" />
+					<Override slot="link" href="/index/3d_animation" background="#fff7f1" />
 				</Components.CardLink>
 				<Components.CardLink sm-width="50% content-box">
 					<Override

@@ -275,7 +275,7 @@ export default (() => {
 						Cardiago
 					</Override>
 					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat" />
-					<Override slot="link" href="/index/cardiago" />
+					<Override slot="link" href="/index/cardiago" background="#fff7f1" />
 				</Components.CardLink>
 				<Components.CardLink sm-width="50% content-box">
 					<Override

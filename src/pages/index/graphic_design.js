@@ -187,7 +187,7 @@ export default (() => {
 						Carsharing
 					</Override>
 					<Override slot="box" background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat" />
-					<Override slot="link" href="/index/carsharing" />
+					<Override slot="link" href="/index/carsharing" background="#fff7f1" />
 				</Components.CardLink>
 				<Components.CardLink sm-width="50% content-box">
 					<Override

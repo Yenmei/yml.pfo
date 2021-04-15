@@ -253,7 +253,7 @@ export default (() => {
 						Jianshi Township
 					</Override>
 					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/js_c.png?v=2021-03-23T13:09:48.157Z) 0% 0%/cover no-repeat" />
-					<Override slot="link" href="/index/jianshi_township" />
+					<Override slot="link" href="/index/jianshi_township" background="#fff7f1" />
 				</Components.CardLink>
 				<Components.CardLink sm-width="50% content-box">
 					<Override

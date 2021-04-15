@@ -228,7 +228,7 @@ export default (() => {
 				md-font="normal 300 23px/1.5 --fontFamily-googleLato"
 				sm-font="normal 300 16.5px/1.5 --fontFamily-googleLato"
 			>
-				Next journey…
+				If you follow the order to read, this is the last work! :D Tap the menu link below to where you are interested.
 			</Text>
 			<Stack margin-top="40px" sm-margin="0px -16px -16px -16px">
 				<Components.CardLink sm-display="flex" sm-width="50% content-box" sm-align-items="flex-start">

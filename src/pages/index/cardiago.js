@@ -358,7 +358,7 @@ export default (() => {
 						EVTaxi
 					</Override>
 					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ev_c.png?v=2021-03-23T13:09:48.181Z) 50% 0%/cover" />
-					<Override slot="link" href="/index/evtaxi" />
+					<Override slot="link" href="/index/evtaxi" background="#fff7f1" />
 				</Components.CardLink>
 				<Components.CardLink sm-width="50% content-box">
 					<Override
