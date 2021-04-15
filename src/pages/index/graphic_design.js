@@ -171,6 +171,7 @@ export default (() => {
 						font="300 13px/20px Lato, sans-serif"
 						padding="0px 0px 0px 25px"
 						sm-margin="0 0 0.3rem 0"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						UXUI
 					</Override>
@@ -181,6 +182,7 @@ export default (() => {
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						Carsharing
 					</Override>
@@ -194,6 +196,7 @@ export default (() => {
 						font="300 13px/20px Lato, sans-serif"
 						padding="0px 0px 0px 25px"
 						sm-margin="0 0 0.3rem 0"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						UXUI
 					</Override>
@@ -204,6 +207,7 @@ export default (() => {
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						Cardiago
 					</Override>
@@ -217,6 +221,7 @@ export default (() => {
 						font="300 13px/20px Lato, sans-serif"
 						padding="0px 0px 0px 25px"
 						sm-margin="0 0 0.3rem 0"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						UXUI
 					</Override>
@@ -227,6 +232,7 @@ export default (() => {
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						EVTaxi
 					</Override>
@@ -240,6 +246,7 @@ export default (() => {
 						font="300 13px/20px Lato, sans-serif"
 						padding="0px 0px 0px 25px"
 						sm-margin="0 0 0.3rem 0"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						UXUI, Visual
 					</Override>
@@ -250,6 +257,7 @@ export default (() => {
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						Jianshi Township
 					</Override>
@@ -263,6 +271,7 @@ export default (() => {
 						font="300 13px/20px Lato, sans-serif"
 						padding="0px 0px 0px 25px"
 						sm-margin="0 0 0.3rem 0"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						Craft
 					</Override>
@@ -273,6 +282,7 @@ export default (() => {
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
+						sm-padding="0 0.6rem 0 0.8rem"
 					>
 						3D / Animation
 					</Override>
