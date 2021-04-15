@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Text, Span, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Span, Image, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Section, Override, StackItem, Stack } from "@quarkly/components";
+import { Override, Section, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -16,42 +16,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/favicon.png?v=2021-03-23T06:10:09.433Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#d2d2d2"} />
 		</Helmet>
-		<Section id="sec_top">
-			<Box
-				display="flex"
-				padding="12px 0"
-				justify-content="space-between"
-				align-items="center"
-				flex-direction="row"
-				md-flex-direction="column"
-			>
-				<Components.LogoHomeLink />
-				<Box display="flex" width="max-content">
-					<Link
-						href="/#sec_aboutme"
-						display="flex"
-						padding="0px 12px 0px 6px"
-						color="#2E4053"
-						font="300 16px --fontFamily-googleLato"
-						text-decoration-line="initial"
-						hover-text-decoration-line="underline"
-					>
-						ABOUT ME
-					</Link>
-					<Link
-						href="/#sec_letstalk"
-						display="flex"
-						padding="0px 6px 0px 12px"
-						color="#2E4053"
-						font="300 16px --fontFamily-googleLato"
-						text-decoration-line="initial"
-						hover-text-decoration-line="underline"
-					>
-						LET'S TALK
-					</Link>
-				</Box>
-			</Box>
-		</Section>
+		<Components.Header2 />
 		<Section
 			padding="60px 0 60px 0"
 			sm-padding="40px 0"
@@ -353,79 +318,7 @@ export default (() => {
 				</Components.CardLink>
 			</Stack>
 		</Section>
-		<Section background-color="--dark" text-align="center" padding="32px 0" background="--color-greyD2">
-			<Box
-				width="600px"
-				display="flex"
-				justify-content="center"
-				align-items="center"
-				margin="1rem auto 1.5rem auto"
-				sm-width="300px"
-				sm-height="auto"
-				sm-display="inline-block"
-				sm-margin="0 auto 0 auto"
-			>
-				<Link
-					href="#sec_top"
-					display="inline-flex"
-					justify-content="center"
-					color="#d2d2d2"
-					font="300 16px --fontFamily-googleLato"
-					text-decoration-line="initial"
-					padding="12px 24px 0px 24px"
-					width="33%"
-					hover-text-decoration-line="underline"
-					sm-font="300 16px --fontFamily-googleLato"
-					sm-padding="0 auto 3px auto"
-					sm-width="250px"
-					sm-display="inline-flex"
-					sm-align-items="flex-start"
-					sm-justify-content="center"
-					sm-height="30px"
-				>
-					TOP
-				</Link>
-				<Link
-					href="/#sec_aboutme"
-					display="inline-flex"
-					justify-content="center"
-					color="#d2d2d2"
-					font="300 16px --fontFamily-googleLato"
-					text-decoration-line="initial"
-					padding="12px 24px 0px 24px"
-					width="33%"
-					hover-text-decoration-line="underline"
-					sm-font="300 16px --fontFamily-googleLato"
-					sm-display="inline-flex"
-					sm-width="250px"
-					sm-align-items="flex-start"
-					sm-justify-content="center"
-					sm-height="30px"
-				>
-					ABOUT ME
-				</Link>
-				<Link
-					href="/#sec_letstalk"
-					display="inline-flex"
-					justify-content="center"
-					color="#d2d2d2"
-					font="300 16px --fontFamily-googleLato"
-					text-decoration-line="initial"
-					padding="12px 24px 0px 24px"
-					width="33%"
-					hover-text-decoration-line="underline"
-					sm-font="300 16px --fontFamily-googleLato"
-					sm-padding="0 auto 3px auto"
-					sm-display="inline-flex"
-					sm-width="250px"
-					sm-align-items="flex-start"
-					sm-justify-content="center"
-					sm-height="30px"
-				>
-					LET'S TALK
-				</Link>
-			</Box>
-		</Section>
+		<Components.Footer2 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
