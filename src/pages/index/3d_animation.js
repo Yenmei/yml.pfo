@@ -386,7 +386,7 @@ export default (() => {
 					TOP
 				</Link>
 				<Link
-					href="/index/#sec_aboutme"
+					href="/#sec_aboutme"
 					display="inline-flex"
 					justify-content="center"
 					color="#d2d2d2"
@@ -405,7 +405,7 @@ export default (() => {
 					ABOUT ME
 				</Link>
 				<Link
-					href="/index/#sec_letstalk"
+					href="/#sec_letstalk"
 					display="inline-flex"
 					justify-content="center"
 					color="#d2d2d2"
