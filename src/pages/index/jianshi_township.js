@@ -249,14 +249,20 @@ export default (() => {
 				Next journey…
 			</Text>
 			<Stack margin-top="40px" sm-margin="0px -16px -16px -16px">
-				<Components.CardLink>
-					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+				<Components.CardLink sm-width="50% content-box">
+					<Override
+						slot="text"
+						sm-font="300 13px/24px Lato, sans-serif"
+						font="300 13px/20px Lato, sans-serif"
+						padding="0px 0px 0px 25px"
+						sm-margin="0 0 0.3rem 0"
+					>
 						Craft
 					</Override>
 					<Override
 						slot="text1"
-						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
-						sm-margin="0px 0px 20px 0px"
+						sm-font="500 23px/25px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 15px 0px"
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
@@ -266,14 +272,20 @@ export default (() => {
 					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/ta_c.png?v=2021-03-23T13:09:48.183Z) 50% 0%/cover no-repeat" />
 					<Override slot="link" href="/index/3d_animation" />
 				</Components.CardLink>
-				<Components.CardLink>
-					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+				<Components.CardLink sm-width="50% content-box">
+					<Override
+						slot="text"
+						sm-font="300 13px/24px Lato, sans-serif"
+						font="300 13px/20px Lato, sans-serif"
+						padding="0px 0px 0px 25px"
+						sm-margin="0 0 0.3rem 0"
+					>
 						E Flyer
 					</Override>
 					<Override
 						slot="text1"
-						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
-						sm-margin="0px 0px 20px 0px"
+						sm-font="500 23px/25px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 15px 0px"
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
@@ -283,14 +295,20 @@ export default (() => {
 					<Override slot="box" background="#2E4053 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_c.png?v=2021-03-23T13:09:48.178Z) 0% 0%/cover no-repeat" />
 					<Override slot="link" href="/index/graphic_design" />
 				</Components.CardLink>
-				<Components.CardLink>
-					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+				<Components.CardLink sm-width="50% content-box">
+					<Override
+						slot="text"
+						sm-font="300 13px/24px Lato, sans-serif"
+						font="300 13px/20px Lato, sans-serif"
+						padding="0px 0px 0px 25px"
+						sm-margin="0 0 0.3rem 0"
+					>
 						UXUI
 					</Override>
 					<Override
 						slot="text1"
-						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
-						sm-margin="0px 0px 20px 0px"
+						sm-font="500 23px/25px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 15px 0px"
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
@@ -300,14 +318,20 @@ export default (() => {
 					<Override slot="box" background="url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cs_c.jpg?v=2021-03-23T13:09:48.177Z) 50% 65%/cover no-repeat" />
 					<Override slot="link" href="/index/carsharing" />
 				</Components.CardLink>
-				<Components.CardLink>
-					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+				<Components.CardLink sm-width="50% content-box">
+					<Override
+						slot="text"
+						sm-font="300 13px/24px Lato, sans-serif"
+						font="300 13px/20px Lato, sans-serif"
+						padding="0px 0px 0px 25px"
+						sm-margin="0 0 0.3rem 0"
+					>
 						UXUI
 					</Override>
 					<Override
 						slot="text1"
-						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
-						sm-margin="0px 0px 20px 0px"
+						sm-font="500 23px/25px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 15px 0px"
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
@@ -317,14 +341,20 @@ export default (() => {
 					<Override slot="box" background="--color-greyD2 url(https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/cd_c.png?v=2021-03-23T13:09:48.156Z) 50% 40%/cover no-repeat" />
 					<Override slot="link" href="/index/cardiago" />
 				</Components.CardLink>
-				<Components.CardLink>
-					<Override slot="text" sm-font="300 13px/24px Lato, sans-serif" font="300 13px/20px Lato, sans-serif" padding="0px 0px 0px 25px">
+				<Components.CardLink sm-width="50% content-box">
+					<Override
+						slot="text"
+						sm-font="300 13px/24px Lato, sans-serif"
+						font="300 13px/20px Lato, sans-serif"
+						padding="0px 0px 0px 25px"
+						sm-margin="0 0 0.3rem 0"
+					>
 						UXUI
 					</Override>
 					<Override
 						slot="text1"
-						sm-font="500 23px/36px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
-						sm-margin="0px 0px 20px 0px"
+						sm-font="500 23px/25px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
+						sm-margin="0px 0px 15px 0px"
 						font="500 22px/23px Constantia, &quot;Lucida Bright&quot;, Lucidabright, &quot;Lucida Serif&quot;, Lucida, &quot;DejaVu Serif&quot;, &quot;Bitstream Vera Serif&quot;, &quot;Liberation Serif&quot;, Georgia, serif"
 						margin="0.4rem 0px 1.5rem 0px"
 						padding="0px 0px 0px 25px"
