@@ -66,7 +66,7 @@ export default (() => {
 				</Span>
 			</Text>
 			<Box padding="10px" margin="5rem 0px 5rem 0px" sm-margin="1rem 0px 1rem 0px">
-				<Image src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_1.png?v=2021-03-24T11:36:59.337Z" width="1149px" max-width="100%" />
+				<Image src="https://uploads.quarkly.io/605618353022f1001e5cd2ad/images/og_1.png?v=2021-04-21T09:19:11.942Z" width="1149px" max-width="100%" />
 			</Box>
 			<Text
 				as="h1"
